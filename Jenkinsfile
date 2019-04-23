@@ -21,9 +21,9 @@ volumes: [
             checkout scm
             container('node') {
 
-//                stage('Validate project') {
-//                    sh 'mvn -B  validate'
-//                }
+                stage('Validate project') {
+                    sh 'npm install'
+                }
                 
                 stage('Compile project') {
                     sh 'mvn -f app/pom.xml clean install'
