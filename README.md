@@ -6,7 +6,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 > ### In order for this project to run properly, you must:
 > -run the angular server from your project root
+
 > -have mongoDB installed and the mongoDB server running
+
 > -run nodemon from inside your project's /api folder
 
 ## Start the Development server
